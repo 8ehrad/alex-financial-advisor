@@ -1,8 +1,6 @@
 # Alex Financial Advisor
 
-Alex, short for Agentic Learning Equities eXplainer, is a production-style AI financial planning application. It combines a Next.js frontend, a FastAPI backend, AWS serverless infrastructure, and a multi-agent analysis system that can inspect a user's portfolio, generate written analysis, produce chart-ready data, and run retirement projections.
-
-This repository contains the project deliverables only. Course walkthrough material and deployment guides have been intentionally excluded.
+Alex, short for Agentic Learning Equities eXplainer, is a production-style AI financial planning application that I designed and implemented end to end. It combines a Next.js frontend, a FastAPI backend, AWS serverless infrastructure, and a multi-agent analysis system that can inspect a user's portfolio, generate written analysis, produce chart-ready data, and run retirement projections.
 
 ![Alex application image](assets/alex.png)
 
@@ -144,7 +142,3 @@ Before applying any stack, copy that stack's `terraform.tfvars.example` to `terr
 ## Cost Notes
 
 This project deploys real AWS infrastructure. Aurora Serverless v2 is usually the largest standing cost while active. Destroy unused Terraform stacks when the application is not being developed or demonstrated.
-
-## Attribution
-
-This project was built as part of the AI in Production course capstone and adapted here as a deliverables-only repository.
