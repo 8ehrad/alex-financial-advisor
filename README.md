@@ -30,6 +30,18 @@ Alex (Agentic Learning Equities eXplainer) is an end-to-end AI engineering proje
 - Includes a separate research-ingestion and vector-retrieval path.
 - Computes retirement estimates using a 500-scenario Monte Carlo simulation and deterministic milestone projections.
 
+## Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, Clerk
+- **Backend API:** FastAPI, AWS Lambda, Pydantic
+- **AI agents:** OpenAI Agents SDK, LiteLLM, AWS Bedrock
+- **Data:** Aurora Serverless v2 PostgreSQL, RDS Data API, S3 Vectors
+- **ML infrastructure:** SageMaker serverless endpoint for embeddings
+- **Cloud:** API Gateway, Lambda, SQS, S3, CloudFront, ECR, CloudWatch
+- **Infrastructure:** Terraform
+- **Python tooling:** uv
+
+
 ## Architecture
 
 ~~~mermaid
